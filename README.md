@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live site URL:
+- Solution URL: (https://github.com/victoriatuady/Age-Calculator.git)
+- Live site URL:https://victoriatuady.github.io/Age-Calculator/
 
 ## My process
 
