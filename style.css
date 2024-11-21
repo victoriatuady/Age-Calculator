@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* || RESET */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* || GENERAL STYLES */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(0, 0%, 94%);
+  letter-spacing: 0.07em;
+  margin-top: 5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.block {
+  background-color: hsl(0, 0%, 100%);
+  padding: 2.5rem 1rem 2rem 1rem;
+  width: 90%;
+  height: auto;
+  border-radius: 0.7rem 0.7rem 7rem 0.7rem;
+}
+
+form {
+  display: flex;
+}
+
+.label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #716f6f;
+  margin-bottom: 0.5em;
+}
+
+input {
+  border: 0.4px solid #dbdbdb;
+  cursor: pointer;
+  border-radius: 0.4em;
+  width: 80%;
+  height: 2rem;
+  padding-inline: 0.5rem;
+  font-weight: 800;
+  margin-bottom: 0.4rem;
+}
+
+input:focus {
+  outline: none;
+  border: 0.4px solid hsl(0, 1%, 44%);
+}
+
+.error-text {
+  font-size: 0.5rem;
+  font-style: italic;
+  color: #ff5757;
+  font-weight: 400;
+}
+
+.horizontal_line {
+  position: relative;
+  margin-top: 3rem;
+}
+
+hr {
+  border: 0.03rem solid hsl(0, 0%, 86%);
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: hsl(259, 100%, 65%);
+  padding: 1rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+
+  position: absolute;
+  top: -1.5rem;
+  left: 40%;
+}
+
+button:hover {
+  background-color: hsl(0, 0%, 8%);
+}
+
+/* .btn img {
+  width: 10%;
+} */
+
+.age_block {
+  margin-top: 3rem;
+}
+
+.age {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.age_style {
+  display: flex;
+  align-content: center;
+  border-bottom: none;
+}
+
+.age div {
+  width: 2rem;
+  height: 1rem;
+  border-bottom: 10px solid hsl(259, 100%, 65%);
+}
+
+#result {
+  color: hsl(259, 100%, 65%);
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    margin: 0;
+    min-height: 100vh;
+  }
+
+  .block {
+    width: 60%;
+    padding: 3rem 2.5rem 3.5rem 2.5rem;
+  }
+
+  input {
+    width: 70%;
+    height: 2.5rem;
+    font-size: 20px;
+  }
+
+  .error-text {
+    font-size: 0.6rem;
+  }
+
+  .label {
+    font-size: 1rem;
+  }
+
+  .btn {
+    width: 60px;
+    height: 60px;
+  }
+
+  .age {
+    gap: 1rem;
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .block {
+    width: 60%;
+    padding: 3rem 3rem 3.5rem 3rem;
+  }
+
+  form {
+    gap: 1.3rem;
+  }
+
+  .label {
+    font-size: 1rem;
+  }
+
+  input {
+    width: 8rem;
+    font-size: 25px;
+  }
+
+  .error-text {
+    font-size: 0.7rem;
+  }
+
+  button {
+    padding: 1.3rem;
+    width: 80px;
+    height: 80px;
+    left: 90%;
+    top: -2.2rem;
+  }
+
+  .age {
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .block {
+    width: 50%;
+    padding: 3rem 4rem 3.5rem 4rem;
+  }
+
+  form {
+    gap: 2rem;
+  }
+
+  input {
+    width: 9rem;
+    height: 4rem;
+    padding-inline: 0.6rem;
+    /* font-size: 32px; */
+  }
+
+  input::placeholder {
+    font-size: 1.5rem;
+  }
+
+  button {
+    left: 93%;
+  }
+
+  .btn {
+    width: 70px;
+    height: 70px;
+  }
+
+  .age {
+    font-size: 90px;
+  }
+}
