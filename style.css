@@ -124,7 +124,7 @@ button:hover {
   border-bottom: 10px solid hsl(259, 100%, 65%);
 }
 
-#result {
+.result {
   color: hsl(259, 100%, 65%);
 }
 

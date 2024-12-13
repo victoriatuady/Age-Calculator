@@ -4,7 +4,7 @@ const monthInput = document.getElementById("month");
 const yearInput = document.getElementById("year");
 const button = document.getElementById("button");
 const resultDiv = document.querySelectorAll(".age div");
-const results = document.querySelectorAll("#result");
+const results = document.querySelectorAll(".result");
 const inputs = document.querySelectorAll("input");
 const errorMessages = document.querySelectorAll(".error-text");
 
